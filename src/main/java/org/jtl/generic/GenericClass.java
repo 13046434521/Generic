@@ -1,4 +1,4 @@
-package org.jtl;
+package org.jtl.generic;
 
 /**
  * Author（作者）：jtl
@@ -9,27 +9,27 @@ package org.jtl;
 public class GenericClass<T> {
     public T data;
 
-    /**
-     * 泛型不能用于静态变量，
-     * 原因是不知道T为什么类型
-     * public static T msg;
+    /*
+      泛型不能用于静态变量，
+      原因是不知道T为什么类型
+      public static T msg;
      */
 
 
-    /**
-     * 泛型不能用于静态代码块，
-     * 原因是不知道T为什么类型
-     * static {
-     *     T time;
-     * }
+    /*
+      泛型不能用于静态代码块，
+      原因是不知道T为什么类型
+      static {
+          T time;
+      }
      */
 
-    /**
-     * 泛型不能用于普通静态方法，
-     * 原因是不知道T为什么类型
-     * public static T getData(T type){
-     *     return type;
-     * }
+    /*
+      泛型不能用于普通静态方法，
+      原因是不知道T为什么类型
+      public static T getData(T type){
+          return type;
+      }
      */
 
     /**
@@ -60,6 +60,10 @@ public class GenericClass<T> {
      */
     public <T, E> void setData(T type, E kind) {
         System.out.println("data:" + data.getClass() + "-- type:" + type.getClass() + "-- kind:" + kind.getClass());
+    }
+
+    public void upData(T t){
+        data = t;
     }
 
     public static <T> GenericClass tt1(T t) {

@@ -1,6 +1,6 @@
-package org.jtl;
+package org.jtl.generic;
 
-import org.jtl.traffic.Traffic;
+import org.jtl.generic.traffic.Traffic;
 
 
 /**

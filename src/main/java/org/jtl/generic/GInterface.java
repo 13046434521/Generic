@@ -1,4 +1,4 @@
-package org.jtl;
+package org.jtl.generic;
 
 /**
  * Author（作者）：jtl

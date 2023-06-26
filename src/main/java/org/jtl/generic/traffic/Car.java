@@ -1,4 +1,4 @@
-package org.jtl.traffic;
+package org.jtl.generic.traffic;
 
 /**
  * Author（作者）：jtl
