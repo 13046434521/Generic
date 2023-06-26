@@ -62,7 +62,7 @@ public class GenericClass<T> {
         System.out.println("data:" + data.getClass() + "-- type:" + type.getClass() + "-- kind:" + kind.getClass());
     }
 
-    public void upData(T t){
+    public void upDataT(T t){
         data = t;
     }
 

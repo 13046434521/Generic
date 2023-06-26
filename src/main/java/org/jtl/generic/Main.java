@@ -74,9 +74,9 @@ public class Main {
 
 
         // 这句话，会报错，原因：协变（上界通配符）只允许获取泛型对象，但是不能修改（传入）泛型对象
-        covarianceGeneric.upData(new YangWang());
+        covarianceGeneric.upDataT(new YangWang());
         // 这句话，不会报错，原因：逆变（下界通配符）可以修改（传入）泛型对象
-        inverterGeneric.upData(new YangWang());
+        inverterGeneric.upDataT(new YangWang());
 
     }
 

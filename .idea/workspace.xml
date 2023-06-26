@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37b7c5ad-b33e-46e4-a0ef-30ad78ebb796" name="Changes" comment="Changes">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="37b7c5ad-b33e-46e4-a0ef-30ad78ebb796" name="Changes" comment="逆变协变">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jtl/GInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jtl/generic/GInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jtl/GenericClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jtl/generic/GenericClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jtl/GenericInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jtl/generic/GenericInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jtl/GenericQualifierExtends.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jtl/generic/GenericQualifierExtends.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jtl/GenericQualifierSuper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jtl/generic/GenericQualifierSuper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jtl/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jtl/generic/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jtl/traffic/AirPlane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jtl/generic/traffic/AirPlane.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jtl/traffic/BYD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jtl/generic/traffic/BYD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jtl/traffic/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jtl/generic/traffic/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jtl/traffic/Traffic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jtl/generic/traffic/Traffic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/jtl/traffic/YangWang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jtl/generic/traffic/YangWang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jtl/generic/GenericClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jtl/generic/GenericClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/jtl/generic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/jtl/generic/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +59,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="LONG &lt;604872657@qq.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
@@ -208,8 +198,17 @@
       <workItem from="1684254175075" duration="154000" />
       <workItem from="1684254340790" duration="10503000" />
       <workItem from="1685432576592" duration="715000" />
-      <workItem from="1687773794666" duration="1858000" />
+      <workItem from="1687773794666" duration="2893000" />
     </task>
+    <task id="LOCAL-00001" summary="逆变协变">
+      <option name="closed" value="true" />
+      <created>1687775681567</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1687775681567</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -225,6 +224,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="逆变协变" />
+    <option name="LAST_COMMIT_MESSAGE" value="逆变协变" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
